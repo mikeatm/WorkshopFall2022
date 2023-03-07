@@ -5,7 +5,6 @@
 #SBATCH -A col146
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=8
-#SBATCH --mem-per-cpu=1200M
 #SBATCH --export=ALL
 #SBATCH -t 128:40:00
 
