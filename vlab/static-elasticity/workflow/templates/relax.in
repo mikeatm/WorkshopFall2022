@@ -4,7 +4,7 @@
     prefix          = 'pwscf'
     tstress         = .true.
     tprnfor         = .true.
-    pseudo_dir      = '/expanse/lustre/projects/col146/chazeon/pseudo'
+    pseudo_dir      = '../../pseudo'
     outdir          = './scratch'
     etot_conv_thr   = 1.0D-6
     forc_conv_thr   = 1.0D-5
