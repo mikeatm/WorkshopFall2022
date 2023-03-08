@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name="q-point"
 ## Change partition if needed
-#SBATCH --partition=job
+#SBATCH --partition=jobs
 #SBATCH -A col146
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=8
