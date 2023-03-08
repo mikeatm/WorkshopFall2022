@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --partition=job
+#SBATCH --partition=jobs
 #SBATCH -A col146
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=8
